@@ -1,0 +1,16 @@
+{
+  "require": {
+    
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.3.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "phpUnitTutorial": ""
+    },
+    "psr-4": {
+      "GVM\\": "library/GVM"
+    }
+  }    
+}

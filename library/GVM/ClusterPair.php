@@ -11,6 +11,7 @@ Class ClusterPair
     * @var \GVM\Cluster;
   */
   public $c1;
+  
   /**
     * The Second Cluster in the pair
     * @var \GVM\Cluster;

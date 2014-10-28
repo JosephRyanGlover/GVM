@@ -1,7 +1,7 @@
 <?php
 
 /**
-Here is a github change
+This project is just a sandbox right now. I am porting it from Java and Python and it's slow going
 */
 
 function pre_print_r($array) {
@@ -11,7 +11,7 @@ function pre_print_r($array) {
 }
 
 
-require('library/autoload.php');
+require('vendor/autoload.php');
 
 use GVM\Clusterer;
 use GVM\Point;
@@ -22,11 +22,11 @@ use GVM\Point;
 
 
 
-$max_clusters = 5;
+$max_clusters = 3;
 $dimensions = 1; // linear example
 $clusterer = new Clusterer($max_clusters, $dimensions);
 
-for($i=0;$i<=20;$i++) {
+for($i=0;$i<=10;$i++) {
   $number = intval(rand(0,50));
   $coords = array($number);
   $point = new Point($coords, $dimensions);
